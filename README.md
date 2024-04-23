@@ -1,4 +1,4 @@
-# Ubuntu16-Wii
+# This currently IS NOT working with the provided Kernel v4.4
 
 ## Changing bootargs with baedit
 It is possible to change kernel command line arguments (also known as bootargs from the DTS file) with a hex editor, with (very careful) usage of sed, or with the provided baedit tool.
