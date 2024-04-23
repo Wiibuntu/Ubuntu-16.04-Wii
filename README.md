@@ -32,7 +32,7 @@ Download Ubuntu 16 Server
 
 Now you will need to download the boot partition. This is what will be flashed to an SD card and how you will boot gumboot and the Kernel.
 
-Download Boot Partition
+[Download Boot Partition](https://github.com/Wiibuntu/Ubuntu16-Wii/releases/download/boot.v1/Ubuntu.16.Boot.img)
 
 The final step will be to flash the .img files to the devices. Boot partition to the SD card and the RootFS of your choosing to a USB flash drive.
 
