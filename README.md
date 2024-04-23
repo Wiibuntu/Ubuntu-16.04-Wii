@@ -26,9 +26,9 @@ Tool to flash SD card and Flash Drive.
 You have 2 options. The Lubuntu Desktop Environment Provided is currently broken due to a framebuffer issue, Still boots and works but runs VERY slow and colors are not correct.
 But the server version without a desktop Environment runs fine. The desktop Environment will be improved upon as this is still in development.
 
-[Download Lubuntu 16](https://github.com/Wiibuntu/Ubuntu16-Wii/releases/tag/Lubuntu.e1)
+Experimental - [Download Lubuntu 16](https://github.com/Wiibuntu/Ubuntu16-Wii/releases/tag/Lubuntu.e1)
 
-Download Ubuntu 16 Server
+Testing - [Download Ubuntu 16 Server](https://github.com/Wiibuntu/Ubuntu16-Wii/releases/download/Ubuntu-Server.t1/Ubuntu.Server.16.Wii.img.gz)
 
 Now you will need to download the boot partition. This is what will be flashed to an SD card and how you will boot gumboot and the Kernel.
 
