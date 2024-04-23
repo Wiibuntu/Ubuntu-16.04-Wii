@@ -26,7 +26,7 @@ Tool to flash SD card and Flash Drive.
 You have 2 options. The Lubuntu Desktop Environment Provided is currently broken due to a framebuffer issue, But the server version
 without a desktop Environment runs fine. The desktop Environment will be improved upon as this is still in development.
 
-Download Lubuntu 16 
+[Download Lubuntu 16](https://github.com/Wiibuntu/Ubuntu16-Wii/releases/tag/Lubuntu.e1)
 
 Download Ubuntu 16 Server
 
