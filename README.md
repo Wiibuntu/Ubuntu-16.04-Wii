@@ -4,7 +4,7 @@
 This repository contains images of Ubuntu 16 for the Wii.
 
 # About The Project
-Trying to bring newer versions of Ubuntu to the Wii has been a project of mine for the last few months. Many trial and errors.
+One of the final planned releases of Ubuntu for the Wii. With many trial and errors.
 This versions actually build somewhat off of [Wii-Linux-NGX](https://github.com/neagix/wii-linux-ngx)
 But this version uses the same bootloader with a different kernel, a newer one. And it also boots Ubuntu 16 instead of Debian 8.
 
