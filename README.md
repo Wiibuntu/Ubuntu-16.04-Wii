@@ -14,7 +14,7 @@ Kernel branch used is Version 4.4 from https://github.com/Wii-Linux/wii-linux-ng
 
 Wii with Homebrew Channel
 
-USB Flash Drive (8gb or more)
+USB Flash Drive (8gb or more for Lubuntu) (4gb or more for Others)
 
 SD card (1gb more more)
 
