@@ -32,7 +32,7 @@ Testing - [Download Ubuntu 16 Server](https://github.com/Wiibuntu/Ubuntu16-Wii/r
 
 Now you will need to download the boot partition. This is what will be flashed to an SD card and how you will boot gumboot and the Kernel.
 
-[Download Boot Partition](https://github.com/Wiibuntu/Ubuntu16-Wii/releases/download/boot.v1/Ubuntu.16.Boot.img)
+[Download Boot Partition](https://github.com/Wiibuntu/Ubuntu16-Wii/releases/download/boot.v1/Ubuntu.16.Boot.v2.img)
 
 The final step will be to flash the .img files to the devices. Boot partition to the SD card and the RootFS of your choosing to a USB flash drive.
 
@@ -45,9 +45,10 @@ In order to select a different item in gumboot you MUST have a gamecube controll
 
 Gumboots Options are a little different then shown (Image is for Ubuntu 14) But it will still boot to the Stable kernel by itself after 30 seconds.
 
-You will see 2 Kernel 4's and one labeled broken. THEY ARE THE SAME! One was compiled with Devkitpro PPC Compiler (Broken) and the other with the standard PPC GCC compiler.
+You will see 2 Kernel 4's and one labeled broken. THEY ARE THE SAME! One was compiled with Devkitpro PPC Compiler and the other with the standard PPC GCC compiler (Broken).
 
 # Login
+
 user- ubuntu
 
 pass- ubuntu
@@ -56,8 +57,13 @@ pass- ubuntu
 
 TO-DO
 
+Need to compile and get the open-b43 driver working. Will either provide a new rootfs for you to flash in the future AND/OR will add another work around.
+
 # Known Issues and Fixes
 
+- Default/Working Kernel has a framebuffer problem and the colors dont work properly. (Compiled With DevkitPPC GCC)
+
+- Broken Kernel has accurate colors but no USB devices aside from the boot device seem to work. Only possible use would be SSH if/when WiFi is added.
 
 # Contact
 Contact me at wiibuntuhelp@gmail.com I will always try to help if I can and have the time to do so.
