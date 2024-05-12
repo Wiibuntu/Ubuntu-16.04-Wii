@@ -3,6 +3,8 @@
 
 This repository contains images of Ubuntu 16 for the Wii.
 
+# THIS IS CURRENTLY EXPERIMENTAL! THINGS ARE BROKEN! FOR A STABLE EXPERIENCE USE [UBUNTU 14](https://github.com/Wiibuntu/Ubuntu14-Wii)
+
 # About The Project
 One of the final planned releases of Ubuntu for the Wii. With many trial and errors.
 This versions actually build somewhat off of [Wii-Linux-NGX](https://github.com/neagix/wii-linux-ngx)
