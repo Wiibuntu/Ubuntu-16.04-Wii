@@ -26,7 +26,7 @@ Tool to flash SD card and Flash Drive.
 # How to Install (Homebrew Needed!)
 
 You have 2 options. The Lubuntu Desktop Environment Provided is currently broken due to a framebuffer issue, Still boots and works but runs VERY slow and colors are not correct.
-But the server version without a desktop Environment runs fine. The desktop Environment will be improved upon as this is still in development.
+But the server version without a desktop Environment runs fine. The desktop Environment will be improved upon as this is still in development. (This only applies to the "stable" kernel)
 
 Experimental - [Download Lubuntu 16](https://github.com/Wiibuntu/Ubuntu16-Wii/releases/tag/Lubuntu.e1)
 
