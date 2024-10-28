@@ -39,6 +39,18 @@ Now you will need to download the boot partition. This is what will be flashed t
 
 The final step will be to flash the .img files to the devices. Boot partition to the SD card and the RootFS of your choosing to a USB flash drive.
 
+# How To Upgrade Without Re-Flashing
+
+Note: This is only for upgrading to a new version of the Ubuntu 16 release, not for updating from 14-16. Although very possible its not been tested.
+
+No matter what you will have to reflash the SD card or at least copy the kernels from the .img file and gumboot.lst to your current SD card.
+
+Download the 3 kernel modules [here](https://github.com/Wiibuntu/Ubuntu-16.04-Wii/releases/tag/modules.v1) or just the one for the kernel you know you are going to use, I say put all 3 just so you can play around if you want.
+
+Extract them and mount the flash drive with your current Wii Linux Filesystem and copy the folders inside the archives to /lib/modules
+
+then unmount and make sure you flashed the SD card with the new kernels and you should be good to go.
+
 # How To Boot
 You will load up the homebrew channel to see its empty, thats normal. Simply press the home button and click "Launch BootMii"
 That will instead load a bootloader known as Gumboot. More on Gumboot [here](https://neagix.github.io/gumboot/).
