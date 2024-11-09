@@ -30,8 +30,7 @@ But the server version without a desktop Environment runs fine. The desktop Envi
 
 Experimental - [Download Lubuntu 16](https://github.com/Wiibuntu/Ubuntu16-Wii/releases/tag/Lubuntu.e2)
 
-Testing - [Download Ubuntu 16 Server](https://github.com/Wiibuntu/Ubuntu16-Wii/releases/download/Ubuntu-Server.t1/Ubuntu.Server.16.Wii.img.gz)
-(If you see this message here I have not yet tested this image with the new kernels so if it doesnt work use the last boot img release.)
+Stable - [Download Ubuntu 16 Server](https://github.com/Wiibuntu/Ubuntu-16.04-Wii/releases/download/Ubuntu-Server.t2/Ubuntu.16.Server.v2.2024-11-09.0952.img.gz.001)
 
 Now you will need to download the boot partition. This is what will be flashed to an SD card and how you will boot gumboot and the Kernel.
 
