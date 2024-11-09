@@ -3,8 +3,6 @@
 
 This repository contains images of Ubuntu 16 for the Wii.
 
-# THIS IS CURRENTLY EXPERIMENTAL! THINGS ARE BROKEN! FOR A STABLE EXPERIENCE USE [UBUNTU 14](https://github.com/Wiibuntu/Ubuntu14-Wii)
-
 # About The Project
 One of the final planned releases of Ubuntu for the Wii. With many trial and errors.
 This versions actually build somewhat off of [Wii-Linux-NGX](https://github.com/neagix/wii-linux-ngx)
@@ -75,9 +73,11 @@ Need to compile and get the open-b43 driver working. Will either provide a new r
 
 # Known Issues and Fixes
 
-- Default/Working Kernel has a framebuffer problem and the colors dont work properly. (Compiled With DevkitPPC GCC)
+- No Wifi Support
 
-- Broken Kernel has accurate colors but no USB devices aside from the boot device seem to work. Only possible use would be SSH if/when WiFi is added.
+- No DVD Support
+
+- Framebuffer support depends on the release you are using
 
 # Contact
 Contact me at wiibuntuhelp@gmail.com I will always try to help if I can and have the time to do so.
