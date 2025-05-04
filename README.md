@@ -35,7 +35,7 @@ Old Server - [Download Ubuntu 16 Server](https://github.com/Wiibuntu/Ubuntu-16.0
 
 Now you will need to download the boot partition. This is what will be flashed to an SD card and how you will boot gumboot and the Kernel.
 
-[Download Boot Partition](https://github.com/Wiibuntu/Ubuntu-16.04-Wii/releases/download/Lubuntu.e2/Ubuntu.16.Boot.v3.img)
+[Download Boot Partition](https://www.dropbox.com/scl/fi/f7f8cf3pjwujr689jxpp7/Wiibuntu-BOOTFS-v5.1-2025-05-04-1523.img?rlkey=vi9xvs7zgog4zmh32qxnxkmfw&st=k86rj4u4&dl=0)
 
 The final step will be to flash the .img files to the devices. Boot partition to the SD card and the RootFS of your choosing to a USB flash drive.
 
