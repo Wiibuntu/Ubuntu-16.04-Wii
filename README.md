@@ -8,27 +8,30 @@ One of the final planned releases of Ubuntu for the Wii. With many trial and err
 This versions actually build somewhat off of [Wii-Linux-NGX](https://github.com/neagix/wii-linux-ngx)
 But this version uses the same bootloader with a different kernel, a newer one. And it also boots Ubuntu 16 instead of Debian 8.
 
-Kernel branches used in this is v4.4, v4.5, and v4.9 from https://github.com/Wii-Linux/wii-linux-ngx which is forked from the original [NGX repo](https://github.com/neagix/wii-linux-ngx).
+Kernel branch used in this is v4.20 from https://github.com/Wii-Linux/wii-linux-ngx which is forked from the original [NGX repo](https://github.com/neagix/wii-linux-ngx).
 
 # What You Need
 
 Wii with Homebrew Channel
 
-USB Flash Drive (16gb or more for Lubuntu, 8gb or more for Server Image)
+USB Flash Drive (8gb or more)
 
-SD card (1gb more more)
+SD card (1gb more more for just BootFS)
+(32gb or more for AIO Image)
 
 Tool to flash SD card and Flash Drive.
 
 
 # How to Install (Homebrew Needed!)
 
-You have 2 options. The Lubuntu Desktop Environment Provided is currently broken due to a framebuffer issue, Still boots and works but runs VERY slow and colors are not correct.
-But the server version without a desktop Environment runs fine. The desktop Environment will be improved upon as this is still in development. (This only applies to the "stable" kernel)
+You have 3 options. The Lubuntu Desktop Environment Provided is currently WORKING!
+But the server version is out of date and doesnt support the new kernel or BootFS yet.
 
-Experimental - [Download Lubuntu 16](https://github.com/Wiibuntu/Ubuntu16-Wii/releases/tag/Lubuntu.e2)
+Lubuntu AIO - [Download Lubuntu 16 AIO](https://www.dropbox.com/scl/fi/gc8lhf4dsh6lbb7ffms1l/Ubuntu-16-Wii-AIO-2025-05-03-1730.img?rlkey=7uzcc8id9rpu0dnmfxvso3lbc&st=a7avmanc&dl=0)
 
-Stable - [Download Ubuntu 16 Server](https://github.com/Wiibuntu/Ubuntu-16.04-Wii/releases/download/Ubuntu-Server.t2/Ubuntu.16.Server.v2.2024-11-09.0952.img.gz.001)
+Lubuntu USB - [Download Lubuntu 16 USB](https://www.dropbox.com/scl/fi/g7iiv6yeojq023ym2sosc/Wiibuntu-16.04-USBFS-2025-05-04-1547.img?rlkey=brlpe7u5to7p7w4ro3yt1wlzy&st=n94r84dx&dl=0)
+
+Old Server - [Download Ubuntu 16 Server](https://github.com/Wiibuntu/Ubuntu-16.04-Wii/releases/download/Ubuntu-Server.t2/Ubuntu.16.Server.v2.2024-11-09.0952.img.gz.001)
 
 Now you will need to download the boot partition. This is what will be flashed to an SD card and how you will boot gumboot and the Kernel.
 
@@ -42,7 +45,7 @@ Note: This is only for upgrading to a new version of the Ubuntu 16 release, not 
 
 No matter what you will have to reflash the SD card or at least copy the kernels from the .img file and gumboot.lst to your current SD card.
 
-Download the 3 kernel modules [here](https://github.com/Wiibuntu/Ubuntu-16.04-Wii/releases/tag/modules.v1) or just the one for the kernel you know you are going to use, I say put all 3 just so you can play around if you want.
+Download the kernel modules [here](https://www.dropbox.com/scl/fi/jlc63lpza8cku4293rcgz/4.20.0-wii-modules.zip?rlkey=c1l175fnx1v9f8zc6oq6fu4wn&st=5y33qstw&dl=0)
 
 Extract them and mount the flash drive with your current Wii Linux Filesystem and copy the folders inside the archives to /lib/modules
 
@@ -57,7 +60,7 @@ In order to select a different item in gumboot you MUST have a gamecube controll
 
 Gumboots Options are a little different then shown (Image is for Ubuntu 14) But it will still boot to the Stable kernel by itself after 30 seconds.
 
-You will see 3 Kernels, by default it boots the stable v4.4 kernel, under that is unstable v4.5 and under that is testing v4.9.
+You will see 3 Kernel Options, All boot v4.20 but boot from diferent locations. USB is booted by default.
 
 # Login
 
@@ -69,15 +72,13 @@ pass- ubuntu
 
 TO-DO
 
-Need to compile and get the open-b43 driver working. Will either provide a new rootfs for you to flash in the future AND/OR will add another work around.
+Need to create new script for wifi but hardware is detected.
 
 # Known Issues and Fixes
 
-- No Wifi Support
+-Fixed Wifi/Ethernet
 
-- No DVD Support
-
-- Framebuffer support depends on the release you are using
+-Fixed Framebuffer Issues
 
 # Contact
 Contact me at wiibuntuhelp@gmail.com I will always try to help if I can and have the time to do so.
