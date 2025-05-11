@@ -31,7 +31,9 @@ Lubuntu AIO - [Download Lubuntu 16 AIO](https://www.dropbox.com/scl/fi/gc8lhf4ds
 
 Lubuntu USB - [Download Lubuntu 16 USB](https://www.dropbox.com/scl/fi/g7iiv6yeojq023ym2sosc/Wiibuntu-16.04-USBFS-2025-05-04-1547.img?rlkey=brlpe7u5to7p7w4ro3yt1wlzy&st=n94r84dx&dl=0)
 
-Old Server - [Download Ubuntu 16 Server](https://github.com/Wiibuntu/Ubuntu-16.04-Wii/releases/download/Ubuntu-Server.t2/Ubuntu.16.Server.v2.2024-11-09.0952.img.gz.001)
+AIO Server - [Download Ubuntu 16 Server](https://www.dropbox.com/scl/fi/n5qi0s07l5izcbu5rrvpa/Ubuntu-16-SERVER-Wii-AIO.img?rlkey=e71wpnn8wpeyy4z30fm9ksmzm&st=x5lfn1i3&dl=0)
+
+USB Server - [Download Ubuntu 16 Server](https://www.dropbox.com/scl/fi/o1sgnqhkznm7zg3qqqzh4/Wiibuntu-16-Server-USB-2025-05-10-1804.img?rlkey=4ja9k994sloy3hua29h2jr226&st=rzmbwhcf&dl=0)
 
 Now you will need to download the boot partition. This is what will be flashed to an SD card and how you will boot gumboot and the Kernel.
 
