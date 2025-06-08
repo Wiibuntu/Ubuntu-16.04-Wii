@@ -37,7 +37,7 @@ USB Server - [Download Ubuntu 16 Server](https://www.dropbox.com/scl/fi/o1sgnqhk
 
 Now you will need to download the boot partition. This is what will be flashed to an SD card and how you will boot gumboot and the Kernel.
 
-[Download Boot Partition](https://www.dropbox.com/scl/fi/f7f8cf3pjwujr689jxpp7/Wiibuntu-BOOTFS-v5.1-2025-05-04-1523.img?rlkey=vi9xvs7zgog4zmh32qxnxkmfw&st=k86rj4u4&dl=0)
+[Download Boot Partition](https://www.dropbox.com/scl/fi/aj4kh6mfuj9vi9dpypgz6/Wiibuntu-BOOTFS-v5.2-2025-06-04.img?rlkey=fngcarz4jq3ezkb8krbmnl0e4&st=r3ej79j5&dl=0)
 
 The final step will be to flash the .img files to the devices. Boot partition to the SD card and the RootFS of your choosing to a USB flash drive.
 
