@@ -27,11 +27,11 @@ Tool to flash SD card and Flash Drive.
 You have 3 options. The Lubuntu Desktop Environment Provided is currently WORKING!
 But the server version is out of date and doesnt support the new kernel or BootFS yet.
 
-Lubuntu AIO - [Download Lubuntu 16 AIO](https://www.dropbox.com/scl/fi/gc8lhf4dsh6lbb7ffms1l/Ubuntu-16-Wii-AIO-2025-05-03-1730.img?rlkey=7uzcc8id9rpu0dnmfxvso3lbc&st=a7avmanc&dl=0)
+Lubuntu AIO - [Download Lubuntu 16 AIO](https://www.dropbox.com/scl/fi/uhsqh3k1q8bv01sxukbsc/Ubuntu-16-Wii-AIO-2025-06-04.img?rlkey=9up7k2o5jaavnc7h95zf546tf&st=yk48v0t2&dl=0)
 
 Lubuntu USB - [Download Lubuntu 16 USB](https://www.dropbox.com/scl/fi/g7iiv6yeojq023ym2sosc/Wiibuntu-16.04-USBFS-2025-05-04-1547.img?rlkey=brlpe7u5to7p7w4ro3yt1wlzy&st=n94r84dx&dl=0)
 
-AIO Server - [Download Ubuntu 16 Server](https://www.dropbox.com/scl/fi/n5qi0s07l5izcbu5rrvpa/Ubuntu-16-SERVER-Wii-AIO.img?rlkey=e71wpnn8wpeyy4z30fm9ksmzm&st=x5lfn1i3&dl=0)
+AIO Server - [Download Ubuntu 16 Server](https://www.dropbox.com/scl/fi/iojn7l04xr8s5xftx5qe5/Ubuntu-16-SERVER-Wii-AIO-2025-06-04.img?rlkey=c88cavei4xu1nujgyqywfkhjn&st=h43gcaa2&dl=0)
 
 USB Server - [Download Ubuntu 16 Server](https://www.dropbox.com/scl/fi/o1sgnqhkznm7zg3qqqzh4/Wiibuntu-16-Server-USB-2025-05-10-1804.img?rlkey=4ja9k994sloy3hua29h2jr226&st=rzmbwhcf&dl=0)
 
@@ -45,13 +45,9 @@ The final step will be to flash the .img files to the devices. Boot partition to
 
 Note: This is only for upgrading to a new version of the Ubuntu 16 release, not for updating from 14-16. Although very possible its not been tested.
 
-No matter what you will have to reflash the SD card or at least copy the kernels from the .img file and gumboot.lst to your current SD card.
+Please run the new script in this repository on your Ubuntu Wii system. Or do it manually with the files below.
 
-Download the kernel modules [here](https://www.dropbox.com/scl/fi/jlc63lpza8cku4293rcgz/4.20.0-wii-modules.zip?rlkey=c1l175fnx1v9f8zc6oq6fu4wn&st=5y33qstw&dl=0)
-
-Extract them and mount the flash drive with your current Wii Linux Filesystem and copy the folders inside the archives to /lib/modules
-
-then unmount and make sure you flashed the SD card with the new kernels and you should be good to go.
+Download the kernel files/modules [here](https://github.com/Wiibuntu/Ubuntu-16.04-Wii/releases/tag/zImage-060725)
 
 # How To Boot
 You will load up the homebrew channel to see its empty, thats normal. Simply press the home button and click "Launch BootMii"
