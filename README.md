@@ -10,6 +10,11 @@ But this version uses the same bootloader with a different kernel, a newer one. 
 
 Kernel branch used in this is v4.20 from https://github.com/Wii-Linux/wii-linux-ngx which is forked from the original [NGX repo](https://github.com/neagix/wii-linux-ngx).
 
+# OPTIONAL v5.4.293 KERNEL
+Ubuntu 16 does not need a kernel this high, but cant hurt from the security patches the kernel provides.
+please follow the steps [here](https://github.com/Wiibuntu/Ubuntu-16.04-Wii/releases/tag/zImage-v5.4.293) to upgrade your current Ubuntu 16 Wii release.
+[KERNEL SOURCE HERE](https://github.com/Wii-Linux/wii-linux-ngx/tree/wii-v5.4)
+
 # What You Need
 
 Wii with Homebrew Channel
